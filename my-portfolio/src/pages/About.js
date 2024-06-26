@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import '../css/About.css'; 
-import rashmiPhoto from '../assets/R.jpg';
+import rashmiPhoto from '../assets/R-removebg-preview.png';
 
 const About = () => {
   return (
@@ -9,9 +9,9 @@ const About = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-4">
-            <img src={rashmiPhoto} className="img-fluid rounded-circle" alt="Rashmi Devkar" />
+            <img src={rashmiPhoto} className="img-fluid" alt="Rashmi Devkar" />
           </div>
-          <div className="col-md-8">
+          <div className="col-md-8 p-5">
             <h2>About Me</h2>
             <p>
               Rashmi Sadashiv Devkar is a Computer Science and Engineering graduate with a passion for technology and innovation. With 1.2 years of professional experience, she has honed her skills in React.js, Node.js, SQL, HTML, CSS, and JavaScript.

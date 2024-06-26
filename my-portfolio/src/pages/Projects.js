@@ -1,15 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import '../css/project.css'; // Custom CSS for further styling
-import bgvd from '../assets/projectbg.mp4';
-
+// import bgvd from '../assets/homebg.mp4'
 const Projects = () => {
   return (
     <div className="projects-section">
-      <video autoPlay loop muted className="bg-video">
+      {/* <video autoPlay loop muted className="bg-video">
         <source src={bgvd} type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
       <div className="projects-container">
         <h1>My Projects</h1>
         <div className="projects-list">

@@ -2,15 +2,15 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import '../css/Skill.css'; // Custom CSS for further styling
 
-import skillsVideo from '../assets/homebg.mp4'
+// import skillsVideo from '../assets/homebg.mp4'
 
 const Skills = () => {
   return (
     <div className="skills-section">
-      <video autoPlay loop muted className="bg-video">
+      {/* <video autoPlay loop muted className="bg-video">
         <source src={skillsVideo} type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
       <div className="skills-container">
         <h1>My Skills</h1>
         <div className="skills-list">
